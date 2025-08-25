@@ -1,0 +1,11 @@
+h1{
+    display: flex;
+    justify-self: center;
+    text-decoration: underline;
+}
+h3{
+    color: blue;
+}
+.Q{
+    margin-top: 50px;
+}
