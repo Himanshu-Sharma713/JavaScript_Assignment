@@ -1,15 +1,15 @@
 // Q1. Find Grades
-function findGrades(M) {
+function findGrades(Marks) {
   switch (true) {
-    case M <= 10:
+    case Marks <= 10:
       return "E";
-    case M <= 20:
+    case Marks <= 20:
       return "D";
-    case M <= 30:
+    case Marks <= 30:
       return "C";
-    case M <= 40:
+    case Marks <= 40:
       return "B";
-    case M <= 50:
+    case Marks <= 50:
       return "A";
     default:
       return "Invalid Marks";
